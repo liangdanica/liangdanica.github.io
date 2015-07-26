@@ -1,0 +1,33 @@
+body {
+font-size:185%;
+font-family: 'Josefin Sans', sans-serif;
+color:#000000;
+background-color:#FFFFFF;
+}
+
+h1{
+text-align: center;
+}
+
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: #33CCFF;
+}
+
+img{
+    max-width:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+  text-align: center
+}
+
