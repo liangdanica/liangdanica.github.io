@@ -30,7 +30,12 @@ list-style:none;
     text-decoration: none;
     width:150px;
     color: #33CCFF;
+
     
+}
+
+.nav a:hover {
+    color: #FFFFFF;
 }
 
 img{
