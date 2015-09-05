@@ -1,20 +1,32 @@
+a {text-decoration: none}
 
-body {
-font-size:185%;
-font-family: 'Josefin Sans', sans-serif;
-color:#000000;
-background-color:#FFFFFF;
+.title{
+   text-align: center;
+   font-size:600%;
+   font-family: 'Lobster Two', cursive;
 }
 
 h1{
 text-align: center;
+font-family: 'Josefin Sans', sans-serif;
 }
 
+.text{
+  text-align:center;
+  font-size:100%;
+  font-family: 'Sanchez', serif;
+}
 
-.nav {
-width:800px;
-margin:0 auto;
-list-style:none;
+.text:link{
+  text-decoration: none;
+}
+
+.nav{
+  width:800px;
+  margin:0 auto;
+  list-style:none;
+  font-size:180%;
+font-family: 'Josefin Sans', sans-serif;
 }
 
 .nav li{
@@ -23,19 +35,15 @@ list-style:none;
 
 }
 .nav a{
-/*    display:inline;*/
-/*    padding:10px;*/ 
   display:block;
     text-align:center;
-    text-decoration: none;
+    text-decoration:none;
     width:150px;
-    color: #33CCFF;
-
-    
+    color: #33CCFF;  
 }
 
 .nav a:hover {
-    color: #FFFFFF;
+    color: #B2E6FF;
 }
 
 img{
@@ -45,8 +53,3 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-
-.text{
-  text-align: center
-}
-
