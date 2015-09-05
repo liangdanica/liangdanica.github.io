@@ -1,14 +1,12 @@
-a {text-decoration: none}
-
 .title{
    text-align: center;
    font-size:600%;
    font-family: 'Lobster Two', cursive;
 }
 
-h1{
-text-align: center;
-font-family: 'Josefin Sans', sans-serif;
+h3{
+   text-align: center;
+   font-family: 'Josefin Sans', sans-serif;
 }
 
 .text{
@@ -17,7 +15,7 @@ font-family: 'Josefin Sans', sans-serif;
   font-family: 'Sanchez', serif;
 }
 
-.text:link{
+.text a{
   text-decoration: none;
 }
 
@@ -30,26 +28,26 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 .nav li{
-    float:left;
-    display:inline;
+  float:left;
+  display:inline;
 
 }
 .nav a{
   display:block;
-    text-align:center;
-    text-decoration:none;
-    width:150px;
-    color: #33CCFF;  
+  text-align:center;
+  text-decoration:none;
+  width:150px;
+  color: #33CCFF;  
 }
 
 .nav a:hover {
-    color: #B2E6FF;
+  color: #B2E6FF;
 }
 
 img{
-    max-width:70%;
-    display: block;
-    margin: 100px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width:70%;
+  display: block;
+  margin: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
