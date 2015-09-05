@@ -1,10 +1,10 @@
 .title{
    text-align: center;
-   font-size:600%;
-   font-family: 'Lobster Two', cursive;
+   font-size:400%;
+   font-family: 'Sofia', cursive;
 }
 
-h3{
+h1{
    text-align: center;
    font-family: 'Josefin Sans', sans-serif;
 }
@@ -23,7 +23,7 @@ p{
   width:800px;
   margin:0 auto;
   list-style:none;
-  font-size:180%;
+  font-size:160%;
 font-family: 'Josefin Sans', sans-serif;
 }
 
