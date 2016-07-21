@@ -1,23 +1,55 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="index2.css">
+ 
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+    
+<link href='https://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
+    
+</head>
 
-<div class="home">
+<a name="home"></a> 
+  
+<body>
+<header> 
+  <div class="title">Danica Liang</div>
+</header>
+  
+  <div class="nav">
+    <ul>
+      <li class="home"><a href="#home">Home</a></li>
+      <li class="blog"><a href="blog">Blog</a></li>
+      <li class="about"><a href="#about">About</a></li>
+      <li class="projects"><a href="#projects">Projects</a></li>
+      <li class="Contact"><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
 
-  <h1 class="page-heading">Posts</h1>
+<img src="me.png">
+ 
+<div class="text">
+  <h1><a name="about">Who Am I?</a></h1>
+  <p> Hi there! My name is Danica and I am a third-year student at California Polytechnic State University in the adorable town of San Luis Obispo.
+    <br><br>
+  Thanks for checking out my website!</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <br><br>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <h1><a name="projects">Projects</a></h1> 
+  <p>Coming Soon!</p>
+ 
+  <br><br>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <div class="contact">
+  <h1><a name="contact">Contact Me</a></h1>
+  <p><a href="https://www.linkedin.com/in/liangdanica"><font color="#33CCFF">Connect</a></font> with me or shoot me an <a href="mailto:liangdanica@gmail.com"><font color="#33CCFF">email</a></font> (Quite honestly, I check my email too much).</p>
 </div>
+  
+</div>
+ 
+</body>
+</html>
+
