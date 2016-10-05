@@ -48,10 +48,11 @@ p {
 }
 
 #content02 img {
-/*	max-width: 60%;
-	height: auto;*/
+	max-width: 60%;
+	height: auto;
 /*	position: relative;
 	right: 100px;*/
+	image-orientation: from-image;
 }
 
 #content02 p {
