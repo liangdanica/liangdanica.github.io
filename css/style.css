@@ -50,9 +50,8 @@ p {
 #content02 img {
 	max-width: 60%;
 	height: auto;
-/*	position: relative;
-	right: 100px;*/
-	image-orientation: from-image;
+	position: relative;
+	right: 100px;
 }
 
 #content02 p {
